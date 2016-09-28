@@ -4,6 +4,13 @@
 
 Robolectric is a testing framework that de-fangs the Android SDK so you can test-drive the development of your Android app.
 
+测试用例编写框架
+项目地址：https://github.com/robolectric/robolectric
+Demo 地址：https://github.com/robolectric/robolectricsample
+文档介绍：http://robolectric.org/
+特点：(1). 不需要模拟器在一般 JVM 就可以运行测试用例
+(2). 能完成在真机上的大部分测试包括感应器
+其他的测试用例及相关模块 Mock 可见：android-mock, mockito, easy-mock
 ## Usage
 
 Here's an example of a simple test written using Robolectric:
